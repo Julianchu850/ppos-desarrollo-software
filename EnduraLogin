@@ -4,10 +4,10 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class EnduraLogin {
-    // File to store credentials
+   
     private static final String CREDENTIALS_FILE = "credentials.txt";
 
-    // Static storage for registered users
+
     private static Map<String, String> registeredUsers = new HashMap<>();
 
     public static boolean login(String username, String password) {
@@ -23,10 +23,10 @@ public class EnduraLogin {
     }
 
     public static void loadCredentialsFromFile() {
-        // Load credentials from file (if any)
+   
     }
 
     public static void saveCredentialsToFile() {
-        // Save credentials to file
+     
     }
 }
